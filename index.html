@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+   
+    <!--Add your Firsebase Config here below. -->
+       <!-- Firebase -->
+       <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+   
+       <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyBSHl8wT6VN5CLmXhig5gNNAj_E_B7BwPI",
+      authDomain: "hot-air-balloon-project-cbdce.firebaseapp.com",
+      databaseURL: "https://hot-air-balloon-project-cbdce-default-rtdb.firebaseio.com",
+      projectId: "hot-air-balloon-project-cbdce",
+      storageBucket: "hot-air-balloon-project-cbdce.appspot.com",
+      messagingSenderId: "47596253174",
+      appId: "1:47596253174:web:c20ff942b19d0704b0e1d7"
+    };
+         // Initialize Firebase
+         firebase.initializeApp(firebaseConfig);
+       </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
